@@ -1,0 +1,5 @@
+development:
+  url: neo4j://localhost:7687
+
+test:
+  url: neo4j://localhost:7688
