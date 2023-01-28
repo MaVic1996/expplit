@@ -49,7 +49,6 @@ Rails.application.configure do
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
-  binding.break
   config.neo4j.driver.url = ENV['DB_HOST']
   config.neo4j.driver.username = ENV['DB_USER']
   config.neo4j.driver.password = ENV['DB_PASS']
