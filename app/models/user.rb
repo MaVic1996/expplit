@@ -9,9 +9,11 @@ class User
   property :password, type: String
   property :password_digest, type: String
 
+  validates_uniqueness_of :email
   validates :name, presence: true
   validates :email, presence: true
   validates :password, presence: true
 
   has_many :out, :groups, rel_class: :BelongsTo
+  has_many :in, :managed_groups, rel_class: :ManagedBy
 end

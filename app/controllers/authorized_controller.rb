@@ -1,5 +1,5 @@
 class AuthorizedController < ApplicationController
-include JwtToken
+  include JwtToken
 
   before_action :authenticate_user
 

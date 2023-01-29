@@ -6,5 +6,6 @@ class Group
 
   validates :name, presence: true
 
-  has_many :in, :users, rel_class: :BelongsTo
+  has_many :in, :members, rel_class: :BelongsTo
+  has_one :out, :manager, rel_class: :ManagedBy
 end
