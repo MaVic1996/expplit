@@ -21,11 +21,19 @@ Bundler.require(*Rails.groups)
 
 module Expplit
   class Application < Rails::Application
+    # Set as an api
+    config.api_only = true
+    
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    
     config.generators { |g| g.orm :active_graph }
-    require 'dotenv'
-    Dotenv.load
+    
+    # Use dotenv to load the .env
+    if ENV["RAILS_ENV"] == "development"
+      require "dotenv"
+      Dotenv.load
+    end
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
