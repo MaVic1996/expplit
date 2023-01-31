@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   #Authentication  
   post '/auth/login', to: 'authentication#login'
   post '/auth/register', to: 'authentication#register'
+  post '/auth/vinculate_account', to: 'authentication#vinculate_account'
 
   resources :groups do
     collection do 
@@ -22,7 +23,7 @@ Rails.application.routes.draw do
     end
     member do
       get '', to: 'users#user_data'
-      put 'add_to_group/:group', to: 'users#add_user_to_group'
+      put 'add_in_group/:group', to: 'users#add_user_in_group'
       delete 'delete_from_group/:group', to: 'users#delete_from_group' 
     end
   end
