@@ -7,7 +7,7 @@ class User
   property :name, type: String
   property :email, type: String
   property :password_digest, type: String
-  property :logged_in_before, type: Boolean, default: true
+  property :last_login_at, type: DateTime
 
   validates_uniqueness_of :email
   validates :name, presence: true

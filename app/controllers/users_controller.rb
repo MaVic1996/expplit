@@ -24,7 +24,9 @@ class UsersController < AuthorizedController
   def create
     user = User.new(user_params)
     user.password = generated_password 
-    user.logged_in_before = false
+    group = Group.find(params[:group])
+    return render json: {message: "Group doesn't exists"}, status: :not_found if group.blank?
+    user.groups << group    
     if user.save!
       render json: {message: "User #{user.email} created!"}, status: :created
     else

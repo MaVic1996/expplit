@@ -6,6 +6,8 @@ class AuthenticationController < AuthorizedController
     if user&.authenticate(params[:password])
       token = JwtToken.encode(user_id: user.id)
       time = Time.now + 24.hours.to_i
+      user.last_login_at = DateTime.now
+      user.save
       return render_response(user)
     end
 
@@ -18,6 +20,7 @@ class AuthenticationController < AuthorizedController
     end
       begin
       user = User.new(email: params[:email], name: params[:name], password: params[:password])
+      user.last_login_at = DateTime.now
       user.save!
       render_response(user)
     rescue ActiveGraph::Node::Persistence::RecordInvalidError => e
@@ -26,17 +29,16 @@ class AuthenticationController < AuthorizedController
   end
 
   def vinculate_account
-    binding.break
     user = User.find_by(email: params[:email])
     if user.blank?
       return render json: {error: "User email doesn't exists"}, status: :unauthorized
     end
-    binding.break
-    if user.logged_in_before
+    
+    if user.last_login_at.present?
       return render json: {error: "User already logged in!"}, status: :bad_request
     end
     user.password = params[:password]
-    user.logged_in_before = true
+    user.last_login_at = DateTime.now
     if user.save!
       return render_response(user)
     else 
