@@ -3,10 +3,9 @@ class AuthorizedController < ApplicationController
 
   before_action :authenticate_user
 
-
   def authenticate_user
-    header = request.headers['Authorization']
-    header = header.split(' ').last if header
+    header = request.headers["Authorization"]
+    header = header.split(" ").last if header
     begin
       @decoded = JwtToken.decode(header)
       @current_user = User.find(@decoded[:user_id])
