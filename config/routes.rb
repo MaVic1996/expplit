@@ -23,8 +23,8 @@ Rails.application.routes.draw do
     end
     member do
       get '', to: 'users#user_data'
-      put 'add_in_group/:group', to: 'users#add_user_in_group'
-      delete 'delete_from_group/:group', to: 'users#delete_from_group' 
+      put 'add_in_group', to: 'users#add_user_in_group'
+      delete 'delete_from_group', to: 'users#delete_from_group' 
     end
   end
 end

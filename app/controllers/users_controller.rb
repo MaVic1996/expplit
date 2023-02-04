@@ -1,5 +1,4 @@
 class UsersController < AuthorizedController
-  
   def my_data
     @user = @current_user
   end
@@ -23,6 +22,22 @@ class UsersController < AuthorizedController
   end
 
   def add_user_in_group
+    begin
+      user = User.find(params[:id])
+    rescue ActiveGraph::Node::Labels::RecordNotFound => e
+      return render json: { error: "User doesn't exists" }, status: :not_found
+    end
+    begin
+      group = Group.find(params[:group])
+    rescue ActiveGraph::Node::Labels::RecordNotFound => e
+      return render json: { error: "Group doesn't exist" }, status: :not_found
+    end
+    user.groups << group
+    if user.save!
+      render json: { message: "User #{user.id} added to group!" }, status: :ok
+    else
+      render json: { message: "Error" }, status: :internal_server_error
+    end
   end
 
   def create
@@ -42,19 +57,20 @@ class UsersController < AuthorizedController
   end
 
   def delete_from_group
-    user = User.find(params[:id])
-    if user.blank?
-      return render json: { error: "No existe ese usuario en el grupo" }, status: :not_found
-    end
-    group = user.groups.where(id: params[:group]).try(:first)
-    if group.blank?
-      return render json: { error: "No existe ese usuario en el grupo" }, status: :not_found
-    end
-    user.groups = user.groups.where.not(id: params[:group])
-    if user.save!
-      render json: { message: "User #{user.id} deleted from group!" }, status: :ok
-    else
-      render json: { message: "Error" }, status: :internal_server_error
+    begin
+      user = User.find(params[:id])
+      group = user.groups.where(id: params[:group]).try(:first)
+      if group.blank?
+        return render json: { error: "User doesn't exist!" }, status: :not_found
+      end
+      user.groups = user.groups.where_not(id: params[:group])
+      if user.save!
+        render json: { message: "User #{user.id} deleted from group!" }, status: :ok
+      else
+        render json: { message: "Error" }, status: :internal_server_error
+      end
+    rescue ActiveGraph::Node::Labels::RecordNotFound => e
+      return render json: { error: "User doesn't exist" }, status: :not_found
     end
   end
 
