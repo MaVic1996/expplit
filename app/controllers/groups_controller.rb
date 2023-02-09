@@ -31,6 +31,22 @@ class GroupsController < AuthorizedController
     end
   end
 
+  def join_group
+    begin
+      group = Group.find(params[:id])
+    rescue ActiveGraph::Node::Labels::RecordNotFound => e
+      return render json: { message: "Group not found" }, status: :not_found
+    end
+    group.members << @current_user
+    if group.save!
+      render json:{
+        message: "User joined!"
+      }, status: :ok
+    else
+      render json: { message: "User cannot join the group" }, status: :bad_request
+    end
+  end
+
   def create
     new_group = Group.new(group_params)
     new_group.members << @current_user

@@ -14,6 +14,9 @@ Rails.application.routes.draw do
       get 'member_groups', to: 'groups#member_groups'
       get 'managed_groups', to: 'groups#managed_groups'
     end
+    member do 
+      put 'join', to: 'groups#join_group'
+    end
   end
 
   resources :users, except: [:show, :update, :destroy] do

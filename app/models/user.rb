@@ -15,4 +15,6 @@ class User
 
   has_many :out, :groups, rel_class: :BelongsTo
   has_many :in, :managed_groups, rel_class: :ManagedBy
+  has_many :out, :user_pays, rel_class: :PayTo
+  has_many :in, :user_debts, rel_class: :PayTo
 end
