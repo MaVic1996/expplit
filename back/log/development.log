@@ -1,0 +1,4111 @@
+Started GET "/" for 127.0.0.1 at 2023-01-28 01:09:38 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/betterplace/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/betterplace/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.6ms | Allocations: 924)
+Completed 200 OK in 145ms (Views: 62.4ms | Allocations: 4837)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-28 01:10:56 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/betterplace/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/betterplace/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 487)
+Completed 200 OK in 25ms (Views: 3.9ms | Allocations: 1437)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:13:10 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:14:06 +0100
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for HomeController):
+  
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activegraph (10.1.1) lib/active_graph/migrations/check_pending.rb:16:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:14:19 +0100
+Processing by HomeController#index as HTML
+Completed 406 Not Acceptable in 13ms (Allocations: 675)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activegraph (10.1.1) lib/active_graph/migrations/check_pending.rb:16:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:14:54 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 1435.2ms | Allocations: 83183)
+Completed 200 OK in 1461ms (Views: 1442.9ms | Allocations: 84410)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:16:06 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 24ms (Allocations: 1179)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:16:32 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 20ms (Allocations: 725)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:17:20 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 317201ms (Allocations: 345749)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:5:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:22:54 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 42054ms (Allocations: 154333)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:5:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:23:46 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 4767ms (Allocations: 126044)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:5:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:24:02 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 171999ms (Allocations: 101344)
+
+
+  
+Neo4j::Driver::Exceptions::ServiceUnavailableException (Could not perform discovery. No routing servers available.):
+  
+app/controllers/home_controller.rb:5:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:35:13 +0100
+Processing by HomeController#index as HTML
+ [36mCYPHER[0m MATCH (n:Prueba) RETURN n 
+ [34mBOLT:[0m [33m47ms[0m
+ [36mCYPHER[0m MATCH (n:Prueba) RETURN n limit 1 
+ [34mBOLT:[0m [33m48ms[0m
+ [36mCYPHER[0m MATCH (n:Prueba) RETURN n 
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.0ms | Allocations: 432)
+  Rendered layout layouts/application.html.erb (Duration: 1940.4ms | Allocations: 80040)
+Completed 200 OK in 44385ms (Views: 1996.5ms | Allocations: 3009734)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:37:05 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 593.1ms | Allocations: 31545)
+Completed 200 OK in 693ms (Views: 609.7ms | Allocations: 38056)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:37:19 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m25ms[0m
+ [34mBOLT:[0m [33m43ms[0m
+ [34mBOLT:[0m [33m35ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 232.2ms | Allocations: 14053)
+Completed 200 OK in 29899ms (Views: 233.7ms | Allocations: 109898)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:39:40 +0100
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`ActiveGraph::Migrations::SchemaMigration`) REQUIRE n.`migration_id` IS UNIQUE 
+ [34mBOLT:[0m [33m84ms[0m
+ [34mBOLT:[0m [33m27ms[0m
+ [34mBOLT:[0m [33m18ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m24ms[0m
+  
+ActiveGraph::PendingMigrationError (Migrations are pending:
+20230128003853
+ To resolve this issue, run:
+
+        bin/rails neo4j:migrate RAILS_ENV=development):
+  
+activegraph (11.1.0) lib/active_graph/migrations.rb:17:in `check_for_pending_migrations!'
+activegraph (11.1.0) lib/active_graph/migrations/check_pending.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+ [34mBOLT:[0m [33m17ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128003853", :incomplete=>true}}
+ [34mBOLT:[0m [33m30ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Prueba`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m34ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>0, :setter_n_incomplete=>nil}
+ [34mBOLT:[0m [33m19ms[0m
+ [36mCYPHER[0m CALL db.constraints() YIELD description 
+ [34mBOLT:[0m [33m15ms[0m
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:41:20 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m19ms[0m
+ [34mBOLT:[0m [33m15ms[0m
+ [34mBOLT:[0m [33m19ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:limit_1=>1}
+ [34mBOLT:[0m [33m27ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m16ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 679.7ms | Allocations: 31261)
+Completed 200 OK in 58785ms (Views: 699.6ms | Allocations: 170657)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:44:42 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 303)
+  Rendered layout layouts/application.html.erb (Duration: 678.0ms | Allocations: 31488)
+Completed 200 OK in 12433ms (Views: 697.5ms | Allocations: 109731)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:45:01 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m4ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m count(n) AS n 
+ [34mBOLT:[0m [33m24ms[0m
+ [36mCYPHER[0m CREATE (n:`Prueba`) SET n = $props RETURN n | {:props=>{:uuid=>"a0d5f40a-9208-4077-a6a3-ebdfaa79cd33", :titulo=>"test", :numero=>20}}
+ [34mBOLT:[0m [33m25ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 82.3ms | Allocations: 2953)
+Completed 200 OK in 442936ms (Views: 95.4ms | Allocations: 163897)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:52:34 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m4ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 587.3ms | Allocations: 31573)
+Completed 200 OK in 62855ms (Views: 607.8ms | Allocations: 189683)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 01:57:31 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 211.6ms | Allocations: 13878)
+Completed 200 OK in 263ms (Views: 213.1ms | Allocations: 21936)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-28 02:02:41 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.3ms | Allocations: 458)
+Completed 200 OK in 64ms (Views: 30.5ms | Allocations: 2218)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-01-28 02:02:46 +0100
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 45ms (Allocations: 7363)
+
+
+  
+Neo4j::Driver::Exceptions::AuthenticationException (Unsupported authentication token, scheme 'none' is only allowed when auth is disabled: { scheme='none', user_agent='neo4j-ruby/4.4.1' }):
+  
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/handlers/hello_response_handler.rb:38:in `on_failure'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/inbound/inbound_message_dispatcher.rb:72:in `handle_failure_message'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/messaging/common/common_message_reader.rb:36:in `unpack_failure_message'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/messaging/common/common_message_reader.rb:18:in `read'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/channel.rb:55:in `ensure_response_handling'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/channel.rb:37:in `write_and_flush'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/messaging/v3/bolt_protocol_v3.rb:20:in `initialize_channel'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/connection/channel_connector_impl.rb:38:in `initialize_channel'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/channel.rb:23:in `initialize'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/connection_pool_impl.rb:118:in `new'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/connection_pool_impl.rb:118:in `block in new_pool'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:73:in `block (2 levels) in pop'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:69:in `loop'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:69:in `block in pop'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:68:in `synchronize'
+connection_pool (2.3.0) lib/connection_pool/timed_stack.rb:68:in `pop'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/channel_pool.rb:12:in `acquire'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/pool/connection_pool_impl.rb:22:in `acquire'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:100:in `lookup_on_router'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:92:in `block in lookup_on_initial_router'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `each'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `each'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `each'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `each'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `first'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:94:in `lookup_on_initial_router'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:79:in `lookup_on_initial_router_then_on_known_routers'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:66:in `lookup'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/rediscovery_impl.rb:33:in `lookup_cluster_composition'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/routing_table_handler_impl.rb:36:in `block in ensure_routing_table'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/atomic/reentrant_read_write_lock.rb:149:in `with_write_lock'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/routing_table_handler_impl.rb:30:in `ensure_routing_table'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/routing_table_registry_impl.rb:19:in `block in ensure_routing_table'
+<internal:kernel>:90:in `tap'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/routing_table_registry_impl.rb:19:in `ensure_routing_table'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/cluster/loadbalancing/load_balancer.rb:24:in `acquire_connection'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/network_session.rb:95:in `acquire_connection'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/async/network_session.rb:28:in `begin_transaction_async'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/internal_session.rb:66:in `private_begin_transaction'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/internal_session.rb:56:in `block in transaction'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/retry/exponential_backoff_retry_logic.rb:23:in `retry'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/internal_session.rb:55:in `transaction'
+neo4j-ruby-driver (4.4.1) lib/neo4j/driver/synchronizable.rb:16:in `block (4 levels) in with_sync_wrapper'
+async (2.3.1) lib/kernel/sync.rb:20:in `Sync'
+neo4j-ruby-driver (4.4.1) lib/neo4j/driver/synchronizable.rb:16:in `block (3 levels) in with_sync_wrapper'
+neo4j-ruby-driver (4.4.1) ruby/neo4j/driver/internal/internal_session.rb:41:in `read_transaction'
+activegraph (11.1.0) lib/active_graph/transactions.rb:43:in `run_transaction_work'
+activegraph (11.1.0) lib/active_graph/transactions.rb:37:in `block in send_transaction'
+neo4j-ruby-driver (4.4.1) lib/neo4j/driver/auto_closable.rb:19:in `block (3 levels) in with_block_definer'
+neo4j-ruby-driver (4.4.1) lib/neo4j/driver/synchronizable.rb:16:in `block (4 levels) in with_sync_wrapper'
+async (2.3.1) lib/async/task.rb:107:in `block in run'
+async (2.3.1) lib/async/task.rb:248:in `block in schedule'
+Started GET "/" for ::1 at 2023-01-28 02:12:32 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.4ms | Allocations: 457)
+Completed 200 OK in 58ms (Views: 17.3ms | Allocations: 2221)
+
+
+Started GET "/home" for ::1 at 2023-01-28 02:12:36 +0100
+Processing by HomeController#index as HTML
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mPrueba[0m 
+  [36mMATCH[0m (n:`Prueba`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 664.7ms | Allocations: 31225)
+Completed 200 OK in 760ms (Views: 673.4ms | Allocations: 45960)
+
+
+ [36mCYPHER[0m CALL db.constraints() YIELD description 
+ [34mBOLT:[0m [33m7ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m19ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128124512", :incomplete=>true}}
+ [34mBOLT:[0m [33m72ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Generic::Neo4jNode`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m108ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>0, :setter_n_incomplete=>nil}
+ [34mBOLT:[0m [33m27ms[0m
+ [36mCYPHER[0m CALL db.constraints() YIELD description 
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m11ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m11ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128130854", :incomplete=>true}}
+ [34mBOLT:[0m [33m12ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Group`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m56ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>1, :setter_n_incomplete=>nil}
+ [34mBOLT:[0m [33m12ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128130903", :incomplete=>true}}
+ [34mBOLT:[0m [33m11ms[0m
+ [34mBOLT:[0m [33m18ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Member`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m30ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>2, :setter_n_incomplete=>nil}
+ [34mBOLT:[0m [33m13ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128130908", :incomplete=>true}}
+ [34mBOLT:[0m [33m10ms[0m
+ [34mBOLT:[0m [33m13ms[0m
+ [36mCYPHER[0m SHOW CONSTRAINTS YIELD * WHERE type = $type AND labelsOrTypes = $labels AND properties = $properties | {:type=>"UNIQUENESS", :labels=>[:Group], :properties=>[:uuid]}
+ [34mBOLT:[0m [33m33ms[0m
+ [36mCYPHER[0m DROP CONSTRAINT constraint_f7d7264e 
+ [34mBOLT:[0m [33m8ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Group`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m7ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m8ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128130854", :incomplete=>true}}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m SHOW CONSTRAINTS YIELD * WHERE type = $type AND labelsOrTypes = $labels AND properties = $properties | {:type=>"UNIQUENESS", :labels=>[:Group], :properties=>[:uuid]}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m DROP CONSTRAINT constraint_f7d7264e 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Group`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m6ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+Started GET "/home" for 127.0.0.1 at 2023-01-28 19:40:58 +0100
+Processing by HomeController#index as */*
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 91ms (Allocations: 17764)
+
+
+  
+NoMethodError (undefined method `titulo' for #<[33mGroup[0m [36muuid: [0m"ece9359d-e05f-485c-b061-733f68848097", [36mcreated_at: [0mSat, 28 Jan 2023 16:36:43 +0000, [36mdescription: [0m"", [36mname: [0m"Rumania", [36mupdated_at: [0mSat, 28 Jan 2023 16:36:43 +0000>):
+  
+app/controllers/home_controller.rb:4:in `block in index'
+app/controllers/home_controller.rb:4:in `map'
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/home" for 127.0.0.1 at 2023-01-28 19:41:18 +0100
+Processing by HomeController#index as */*
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Completed 200 OK in 50ms (Views: 0.3ms | Allocations: 9666)
+
+
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128220845", :incomplete=>true}}
+ [34mBOLT:[0m [33m12ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`User`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m84ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>0, :setter_n_incomplete=>nil}
+ [34mBOLT:[0m [33m70ms[0m
+ [36mCYPHER[0m CALL db.constraints() YIELD description 
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m10ms[0m
+ [34mBOLT:[0m [33m12ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m10ms[0m
+ [36mCYPHER[0m CALL db.constraints() YIELD description 
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128221215", :incomplete=>true}}
+ [34mBOLT:[0m [33m18ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m SHOW CONSTRAINTS YIELD * WHERE type = $type AND labelsOrTypes = $labels AND properties = $properties | {:type=>"UNIQUENESS", :labels=>[:Group], :properties=>[:uuid]}
+ [34mBOLT:[0m [33m22ms[0m
+ [36mCYPHER[0m DROP CONSTRAINT constraint_f7d7264e 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Group`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m12ms[0m
+DEPRECATION WARNING: The ActiveGraph::Relationship::Query module has been deprecated and will be removed in a future version of the gem. (called from <main> at (irb):8)
+DEPRECATION WARNING: The ActiveGraph::Relationship::Query module has been deprecated and will be removed in a future version of the gem. (called from <main> at (irb):10)
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128220845", :incomplete=>true}}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m SHOW CONSTRAINTS YIELD * WHERE type = $type AND labelsOrTypes = $labels AND properties = $properties | {:type=>"UNIQUENESS", :labels=>[:User], :properties=>[:uuid]}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m DROP CONSTRAINT constraint_1ffa7521 
+ [34mBOLT:[0m [33m5ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`User`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mWHERE[0m (n.migration_id = $n_migration_id)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_migration_id=>"20230128220845", :limit_1=>1}
+ [34mBOLT:[0m [33m15ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>3, :setter_n_incomplete=>false}
+ [34mBOLT:[0m [33m14ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [36mCYPHER[0m CREATE (n:`ActiveGraph::Migrations::SchemaMigration`) SET n = $props RETURN n | {:props=>{:migration_id=>"20230128221215", :incomplete=>true}}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m SHOW CONSTRAINTS YIELD * WHERE type = $type AND labelsOrTypes = $labels AND properties = $properties | {:type=>"UNIQUENESS", :labels=>[:Group], :properties=>[:uuid]}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m DROP CONSTRAINT constraint_f7d7264e 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE CONSTRAINT FOR (n:`Group`) REQUIRE n.`uuid` IS UNIQUE 
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mWHERE[0m (n.migration_id = $n_migration_id)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_migration_id=>"20230128221215", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`incomplete` = $setter_n_incomplete | {:ID_n=>0, :setter_n_incomplete=>false}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:25:49 +0100
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+  
+SyntaxError (/mnt/c/Users/Víctor/Proyectos/expplit/app/controllers/authentication_controller.rb:14: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+      }, status :ok
+                ^
+):
+  
+app/controllers/authentication_controller.rb:14: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/controllers/authentication_controller.rb:14: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/controllers/authentication_controller.rb:14: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:26:23 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [36mCYPHER[0m CREATE (n:`User`) SET n = $props RETURN n | {:props=>{:uuid=>"b3e02bdd-e0fa-4903-8e45-192653eec515", :created_at=>1674995263, :updated_at=>1674995263, :name=>"test", :email=>"test@test.com", :password=>"jajajajajaj"}}
+ [34mBOLT:[0m [33m18ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m7ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m26ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 108969ms (Allocations: 430426)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<[33mUser[0m [36muuid: [0m"b3e02bdd-e0fa-4903-8e45-192653eec515", [36mcreated_at: [0mSun, 29 Jan 2023 12:27:43 +0000, [36memail: [0m"test@test.com", [36mname: [0m"test", [36mpassword: [0m"jajajajajaj", [36mupdated_at: [0mSun, 29 Jan 2023 12:27:43 +0000>):
+  
+app/controllers/authentication_controller.rb:7:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:28:28 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4429ms (Allocations: 45838)
+
+
+  
+NameError (undefined local variable or method `has_secure_password' for User:Class):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/authentication_controller.rb:6:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:43:03 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 11216ms (Allocations: 55079)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<[33mUser[0m [36muuid: [0m"b3e02bdd-e0fa-4903-8e45-192653eec515", [36mcreated_at: [0mSun, 29 Jan 2023 12:27:43 +0000, [36memail: [0m"test@test.com", [36mname: [0m"test", [36mpassword: [0m"jajajajajaj", [36mupdated_at: [0mSun, 29 Jan 2023 12:27:43 +0000>):
+  
+app/controllers/authentication_controller.rb:7:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:44:46 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 14096ms (Allocations: 89715)
+
+
+  
+NoMethodError (undefined method `password_digest' for #<[33mUser[0m [36muuid: [0m"b3e02bdd-e0fa-4903-8e45-192653eec515", [36mcreated_at: [0mSun, 29 Jan 2023 12:27:43 +0000, [36memail: [0m"test@test.com", [36mname: [0m"test", [36mpassword: [0mnil, [36mupdated_at: [0mSun, 29 Jan 2023 12:27:43 +0000>):
+  
+app/controllers/authentication_controller.rb:7:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:50:01 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 2962ms (Allocations: 90040)
+
+
+  
+NoMethodError (undefined method `encode' for JwtToken:Module):
+  
+app/controllers/authentication_controller.rb:8:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:50:29 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 1871ms (Allocations: 53816)
+
+
+  
+NoMethodError (undefined method `encode' for JwtToken:Module):
+  
+app/controllers/authentication_controller.rb:8:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:53:00 +0100
+ [34mBOLT:[0m [33m1ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 1579ms (Allocations: 89999)
+
+
+  
+NoMethodError (undefined method `encode' for JwtToken:Module):
+  
+app/controllers/authentication_controller.rb:8:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 13:55:55 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 3283ms (Allocations: 53827)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/jwt_token.rb:8:in `encode'
+app/controllers/authentication_controller.rb:8:in `login'
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 14:02:41 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"test@test.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 200 OK in 253ms (Views: 0.2ms | Allocations: 12926)
+
+
+Started POST "/auth/register?name=V%C3%ADctor&email=victor.conil.14@gmail.com&password=[FILTERED]" for 127.0.0.1 at 2023-01-29 17:00:28 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m13ms[0m
+Processing by AuthenticationController#register as */*
+  Parameters: {"name"=>"Víctor", "email"=>"victor.conil.14@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"victor.conil.14@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m1ms[0m
+ [36mCYPHER[0m CREATE (n:`User`) SET n = $props RETURN n | {:props=>{:uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :created_at=>1675008029, :updated_at=>1675008029, :name=>"Víctor", :email=>"victor.conil.14@gmail.com", :password=>"123456", :password_digest=>"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa"}}
+ [34mBOLT:[0m [33m4ms[0m
+Completed 200 OK in 259ms (Views: 0.3ms | Allocations: 16776)
+
+
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-29 17:23:04 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"victor.conil.14@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"victor.conil.14@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m12ms[0m
+Completed 200 OK in 274ms (Views: 0.2ms | Allocations: 14494)
+
+
+Started POST "/group/create" for 127.0.0.1 at 2023-01-29 17:24:45 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/group/create"):
+  
+Started POST "/groups/create" for 127.0.0.1 at 2023-01-29 17:24:51 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/groups/create"):
+  
+Started POST "/groups" for 127.0.0.1 at 2023-01-29 17:25:24 +0100
+  
+ActionController::RoutingError (uninitialized constant GroupsController):
+  
+Started POST "/groups" for 127.0.0.1 at 2023-01-29 17:28:16 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/groups"):
+  
+Started POST "/groups" for 127.0.0.1 at 2023-01-29 17:28:57 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/groups"):
+  
+Started POST "/group" for 127.0.0.1 at 2023-01-29 17:29:05 +0100
+Processing by GroupController#create as */*
+  Parameters: {"name"=>"Rumania", "description"=>"Viaje a Rumania"}
+Completed 500 Internal Server Error in 28075ms (Allocations: 118742)
+
+
+  
+NoMethodError (undefined method `SECRET_KEY' for "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNmZkN2U4NTYtNzJjZS00YmIxLTliZTItYjcwOTU5Y2FiYWQzIiwiZXhwIjoxNjc1NjE0MTg1fQ.xoD3duCN---CGRenLBclP0ZOhm5-yaVcdKybN-13WIA":String):
+  
+app/controllers/concerns/jwt_token.rb:14:in `decode'
+app/controllers/authorized_controller.rb:12:in `authenticate_user'
+Started POST "/group" for 127.0.0.1 at 2023-01-29 17:30:25 +0100
+Processing by GroupController#create as */*
+  Parameters: {"name"=>"Rumania", "description"=>"Viaje a Rumania"}
+Completed 500 Internal Server Error in 3424ms (Allocations: 42260)
+
+
+  
+NameError (uninitialized constant JwtToken::HashWithIndifferent):
+  
+app/controllers/concerns/jwt_token.rb:15:in `decode'
+app/controllers/authorized_controller.rb:12:in `authenticate_user'
+Started POST "/group" for 127.0.0.1 at 2023-01-29 17:30:56 +0100
+Processing by GroupController#create as */*
+  Parameters: {"name"=>"Rumania", "description"=>"Viaje a Rumania"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m103ms[0m
+ [36mCYPHER[0m CREATE (n:`Group`) SET n = $props RETURN n | {:props=>{:uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :created_at=>1675009860, :updated_at=>1675009860, :name=>"Rumania", :description=>"Viaje a Rumania"}}
+ [34mBOLT:[0m [33m20ms[0m
+ [34mBOLT:[0m [33m21ms[0m
+ [34mBOLT:[0m [33m15ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>4, :to_node_id=>1, :setter_rel_created_at=>1675009860, :setter_rel_updated_at=>1675009860, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m37ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)-[r:`MANAGED_BY`]->(n:`User`)
+  [31mDELETE[0m r | {:ID_group1=>1}
+ [34mBOLT:[0m [33m40ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`MANAGED_BY` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>1, :to_node_id=>4, :setter_rel_created_at=>1675009860, :setter_rel_updated_at=>1675009860, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m37ms[0m
+Completed 201 Created in 3299ms (Views: 0.2ms | Allocations: 79195)
+
+
+Started GET "/group" for 127.0.0.1 at 2023-01-29 17:51:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/group"):
+  
+Started GET "/groups" for 127.0.0.1 at 2023-01-29 17:51:42 +0100
+Processing by GroupsController#index as */*
+  Parameters: {"name"=>"Rumania", "description"=>"Viaje a Rumania"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m78ms[0m
+Completed 200 OK in 2465ms (Views: 0.2ms | Allocations: 66877)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 20:47:28 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"name"=>"Rumania", "description"=>"Viaje a Rumania", "id"=>"member_groups"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+No template found for GroupsController#show, rendering head :no_content
+Completed 204 No Content in 2116ms (Allocations: 55192)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 22:02:12 +0100
+Processing by GroupsController#member_groups as */*
+ [34mBOLT:[0m [33m27ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m23ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m10ms[0m
+Completed 200 OK in 7741ms (Views: 1.0ms | Allocations: 60412)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:03:19 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser#managed_groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m325ms[0m
+Completed 200 OK in 393ms (Views: 0.4ms | Allocations: 13776)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:04:53 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser#managed_groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 200 OK in 128ms (Views: 0.5ms | Allocations: 13915)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:05:41 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser#managed_groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 200 OK in 129ms (Views: 0.7ms | Allocations: 13805)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:55:27 +0100
+Processing by GroupsController#managed_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m10ms[0m
+ [36mUser#managed_groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m5ms[0m
+Completed 200 OK in 141ms (Views: 3.5ms | Allocations: 5381)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:59:31 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 94ms (Allocations: 15571)
+
+
+  
+NoMethodError (undefined method `wher' for Group:Class):
+  
+app/controllers/groups_controller.rb:11:in `managed_groups'
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 22:59:39 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (result_group2:`Group`), 
+    (result_group2)-[:`MANAGED_BY`]->(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m result_group2 | {:ID_n1=>4}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 200 OK in 121ms (Views: 0.3ms | Allocations: 25135)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 23:08:25 +0100
+Processing by GroupsController#member_groups as */*
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m11ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 46.4ms | Allocations: 6442)
+Completed 200 OK in 183ms (Views: 78.9ms | Allocations: 20444)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 23:11:06 +0100
+Processing by GroupsController#member_groups as */*
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m10ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 14.9ms | Allocations: 3328)
+Completed 500 Internal Server Error in 53ms (Allocations: 11113)
+
+
+  
+ActionView::Template::Error (undefined method `admin' for #<[33mGroup[0m [36muuid: [0m"9c5665b0-9d50-4255-8f8d-db80148e664c", [36mcreated_at: [0mSun, 29 Jan 2023 16:31:00 +0000, [36mdescription: [0m"Viaje a Rumania", [36mname: [0m"Rumania", [36mupdated_at: [0mSun, 29 Jan 2023 16:31:00 +0000>):
+    3: json.array! @groups do |group|
+    4:   json.id group.id
+    5:   json.name group.name
+    6:   json.creator group.admin
+    7: end
+  
+app/views/groups/member_groups.json.jbuilder:6
+app/views/groups/member_groups.json.jbuilder:3
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 23:11:27 +0100
+Processing by GroupsController#member_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m52ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 70.6ms | Allocations: 4851)
+Completed 200 OK in 86ms (Views: 72.0ms | Allocations: 7877)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 23:12:41 +0100
+Processing by GroupsController#member_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 18.5ms | Allocations: 4670)
+Completed 200 OK in 34ms (Views: 20.0ms | Allocations: 7691)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-01-29 23:12:49 +0100
+Processing by GroupsController#member_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 17.9ms | Allocations: 4640)
+Completed 200 OK in 31ms (Views: 19.2ms | Allocations: 7662)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 23:16:01 +0100
+Processing by GroupsController#managed_groups as */*
+Completed 500 Internal Server Error in 58ms (Allocations: 3889)
+
+
+  
+ArgumentError (Invalid options for property `email` on `User`: unique):
+  
+app/models/user.rb:8:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/authorized_controller.rb:12:in `authenticate_user'
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 23:24:37 +0100
+Processing by GroupsController#managed_groups as */*
+Completed 500 Internal Server Error in 27ms (Allocations: 773)
+
+
+  
+SyntaxError (/mnt/c/Users/Víctor/Proyectos/expplit/app/models/user.rb:12: syntax error, unexpected ':', expecting `end' or dummy end
+  validates_uniqueness_of: :email
+                         ^
+):
+  
+app/models/user.rb:12: syntax error, unexpected ':', expecting `end' or dummy end
+app/models/user.rb:12: syntax error, unexpected ':', expecting `end' or dummy end
+app/models/user.rb:12: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/authorized_controller.rb:12:in `authenticate_user'
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-29 23:24:56 +0100
+Processing by GroupsController#managed_groups as */*
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/managed_groups.json.jbuilder
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (result_group2:`Group`), 
+    (result_group2)-[:`MANAGED_BY`]->(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m result_group2 | {:ID_n1=>4}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/managed_groups.json.jbuilder (Duration: 51.3ms | Allocations: 9791)
+Completed 200 OK in 148ms (Views: 52.6ms | Allocations: 26999)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:30:45 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m40ms[0m
+  Rendering groups/show.json.jbuilder
+  Rendered groups/show.json.jbuilder (Duration: 3.7ms | Allocations: 866)
+Completed 500 Internal Server Error in 158ms (Allocations: 25254)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `group' for #<ActionView::Base:0x0000000002b3e0>):
+    1: 
+    2: 
+    3: json.(group, :id, :name, :description)
+    4: 
+    5: json.manager(group.manager, :email)
+    6: json.members(group.members) do |member|
+  
+app/views/groups/show.json.jbuilder:3
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:31:13 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 12.8ms | Allocations: 3318)
+Completed 500 Internal Server Error in 36ms (Allocations: 8949)
+
+
+  
+ActionView::Template::Error (undefined method `members' for #<[33mGroup[0m [36muuid: [0m"9c5665b0-9d50-4255-8f8d-db80148e664c", [36mcreated_at: [0mSun, 29 Jan 2023 16:31:00 +0000, [36mdescription: [0m"Viaje a Rumania", [36mname: [0m"Rumania", [36mupdated_at: [0mSun, 29 Jan 2023 16:31:00 +0000>):
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.manager(@group.manager, :email)
+    6: json.members(@group.members) do |member|
+    7:   json.(member, :name)
+    8: end
+  
+app/views/groups/show.json.jbuilder:6
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:31:57 +0100
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m2ms[0m
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m44ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 120.3ms | Allocations: 11075)
+Completed 200 OK in 284ms (Views: 135.1ms | Allocations: 38064)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:33:36 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+  Rendered groups/show.json.jbuilder (Duration: 96.4ms | Allocations: 8045)
+Completed 500 Internal Server Error in 124ms (Allocations: 13505)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+
+json.(@group, :id, :name, :description)
+
+json.creation(@group.manager) do |manager|
+  json.manager: manager.email
+  json.created_at: @group.created_at.strftime("%d-%m%-Y")
+end
+
+json.members(@group.members) do |member|
+  json.(member, :name)
+end
+):
+1:    
+2:    
+3:    json.(@group, :id, :name, :description)
+4:    
+5:    json.creation(@group.manager) do |manager|
+6:      json.manager: manager.email
+7:      json.created_at: @group.created_at.strftime("%d-%m%-Y")
+8:    end
+9:    
+10:    json.members(@group.members) do |member|
+11:      json.(member, :name)
+12:    end
+  
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+app/views/groups/show.json.jbuilder:6: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:7: syntax error, unexpected ':'
+app/views/groups/show.json.jbuilder:14: syntax error, unexpected `end'
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:34:23 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 11.7ms | Allocations: 3353)
+Completed 500 Internal Server Error in 36ms (Allocations: 8757)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mname: [0m"Víctor", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    2: 
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.creation(@group.manager) do |manager|
+    6:   json.manager manager.email
+    7:   json.created_at @group.created_at.strftime("%d-%m%-Y")
+    8: end
+  
+app/views/groups/show.json.jbuilder:5
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:34:50 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 12.5ms | Allocations: 3303)
+Completed 500 Internal Server Error in 35ms (Allocations: 8702)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mname: [0m"Víctor", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    2: 
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.creation(@group.manager) do |manager|
+    6:   json.manager manager.email
+    7:   json.created_at @group.created_at.strftime("%d-%m%-Y")
+    8: end
+  
+app/views/groups/show.json.jbuilder:5
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:34:54 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 8.7ms | Allocations: 3196)
+Completed 500 Internal Server Error in 26ms (Allocations: 8232)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mname: [0m"Víctor", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    2: 
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.creation(@group.manager) do |manager|
+    6:   json.manager manager.email
+    7:   json.created_at @group.created_at.strftime("%d-%m%-Y")
+    8: end
+  
+app/views/groups/show.json.jbuilder:5
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:34:58 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 7.5ms | Allocations: 3194)
+Completed 500 Internal Server Error in 24ms (Allocations: 8071)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mname: [0m"Víctor", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    2: 
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.creation(@group.manager) do |manager|
+    6:   json.manager manager.email
+    7:   json.created_at @group.created_at.strftime("%d-%m%-Y")
+    8: end
+  
+app/views/groups/show.json.jbuilder:5
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:35:19 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 66125.9ms | Allocations: 79871)
+Completed 500 Internal Server Error in 66147ms (Allocations: 85112)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mname: [0m"Víctor", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    3: json.(@group, :id, :name, :description)
+    4: 
+    5: json.creation do
+    6:   json.manager @group.manager.email
+    7:   json.created_at @group.created_at.strftime("%d-%m%-Y")
+    8: end
+    9: 
+  
+app/views/groups/show.json.jbuilder:6
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-29 23:36:29 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m7ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m184ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 216.9ms | Allocations: 7083)
+Completed 200 OK in 239ms (Views: 218.9ms | Allocations: 12341)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e663c" for 127.0.0.1 at 2023-01-30 00:11:42 +0100
+  
+SyntaxError (/mnt/c/Users/Víctor/Proyectos/expplit/app/controllers/groups_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end):
+  
+app/controllers/groups_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/controllers/groups_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/controllers/groups_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e663c" for 127.0.0.1 at 2023-01-30 00:12:12 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e663c"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e663c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 86ms (Allocations: 23207)
+
+
+  
+ActiveGraph::Node::Labels::RecordNotFound (Couldn't find Group with 'uuid'="9c5665b0-9d50-4255-8f8d-db80148e663c"):
+  
+app/controllers/groups_controller.rb:12:in `show'
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e663c" for 127.0.0.1 at 2023-01-30 00:12:57 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e663c"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e663c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 404 Not Found in 93ms (Views: 0.3ms | Allocations: 22045)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:13:06 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 25.8ms | Allocations: 7086)
+Completed 200 OK in 47ms (Views: 27.3ms | Allocations: 12603)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:18:28 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 21.0ms | Allocations: 7109)
+Completed 200 OK in 114ms (Views: 22.2ms | Allocations: 30511)
+
+
+Started POST "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:19:28 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c"):
+  
+Started PUT "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:19:35 +0100
+Processing by GroupsController#update as */*
+  Parameters: {"name"=>"NuevoNombre", "id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+[31mUnpermitted parameter: :id. Context: { controller: GroupsController, action: update, request: #<ActionDispatch::Request:0x00007f905118d7b8>, params: {"name"=>"NuevoNombre", "controller"=>"groups", "action"=>"update", "id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"} }[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`updated_at` = $setter_n_updated_at, 
+    n.`name` = $setter_n_name | {:ID_n=>1, :setter_n_updated_at=>1675034375, :setter_n_name=>"NuevoNombre"}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 202 Accepted in 38ms (Views: 0.2ms | Allocations: 7884)
+
+
+Started GET "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:20:08 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 23.7ms | Allocations: 6978)
+Completed 200 OK in 45ms (Views: 24.8ms | Allocations: 11902)
+
+
+Started PUT "/groups/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-01-30 00:20:17 +0100
+Processing by GroupsController#update as */*
+  Parameters: {"name"=>"Rumanía", "id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+[31mUnpermitted parameter: :id. Context: { controller: GroupsController, action: update, request: #<ActionDispatch::Request:0x00007f90511a3e00>, params: {"name"=>"Rumanía", "controller"=>"groups", "action"=>"update", "id"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"} }[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`updated_at` = $setter_n_updated_at, 
+    n.`name` = $setter_n_name | {:ID_n=>1, :setter_n_updated_at=>1675034417, :setter_n_name=>"Rumanía"}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 202 Accepted in 28ms (Views: 0.2ms | Allocations: 6662)
+
+
+Started POST "/groups" for 127.0.0.1 at 2023-01-30 00:20:36 +0100
+Processing by GroupsController#create as */*
+  Parameters: {"name"=>"Test", "description"=>"Testeo"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 10ms (Allocations: 3073)
+
+
+  
+NoMethodError (undefined method `users' for #<[33mGroup[0m [36muuid: [0mnil, [36mcreated_at: [0mnil, [36mdescription: [0m"Testeo", [36mname: [0m"Test", [36mupdated_at: [0mnil>):
+  
+app/controllers/groups_controller.rb:36:in `create'
+Started POST "/groups" for 127.0.0.1 at 2023-01-30 00:20:51 +0100
+Processing by GroupsController#create as */*
+  Parameters: {"name"=>"Test", "description"=>"Testeo"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE (n:`Group`) SET n = $props RETURN n | {:props=>{:uuid=>"3d1b81ab-d748-4952-9ccc-d58126bc3bfd", :created_at=>1675034451, :updated_at=>1675034451, :name=>"Test", :description=>"Testeo"}}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>4, :to_node_id=>2, :setter_rel_created_at=>1675034451, :setter_rel_updated_at=>1675034451, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (group2)
+  [36mWHERE[0m (ID(group2) = $ID_group2)
+  [36mMATCH[0m (group2)-[r:`MANAGED_BY`]->(n:`User`)
+  [31mDELETE[0m r | {:ID_group2=>2}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`MANAGED_BY` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>2, :to_node_id=>4, :setter_rel_created_at=>1675034451, :setter_rel_updated_at=>1675034451, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 201 Created in 172ms (Views: 0.2ms | Allocations: 34570)
+
+
+Started DELETE "/groups/3d1b81ab-d748-4952-9ccc-d58126bc3bfd" for 127.0.0.1 at 2023-01-30 00:20:59 +0100
+Processing by GroupsController#destroy as */*
+  Parameters: {"name"=>"Rumanía", "id"=>"3d1b81ab-d748-4952-9ccc-d58126bc3bfd"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"3d1b81ab-d748-4952-9ccc-d58126bc3bfd", :limit_1=>1}
+ [34mBOLT:[0m [33m21ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>2}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 51ms (Allocations: 7765)
+
+
+  
+NoMethodError (undefined method `destroy!' for #<[33mGroup[0m [36muuid: [0m"3d1b81ab-d748-4952-9ccc-d58126bc3bfd", [36mcreated_at: [0mSun, 29 Jan 2023 23:20:51 +0000, [36mdescription: [0m"Testeo", [36mname: [0m"Test", [36mupdated_at: [0mSun, 29 Jan 2023 23:20:51 +0000>):
+  
+app/controllers/groups_controller.rb:57:in `destroy'
+Started DELETE "/groups/3d1b81ab-d748-4952-9ccc-d58126bc3bfd" for 127.0.0.1 at 2023-01-30 00:22:01 +0100
+Processing by GroupsController#destroy as */*
+  Parameters: {"name"=>"Rumanía", "id"=>"3d1b81ab-d748-4952-9ccc-d58126bc3bfd"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"3d1b81ab-d748-4952-9ccc-d58126bc3bfd", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 404 Not Found in 79ms (Views: 0.2ms | Allocations: 22201)
+
+
+Started GET "/groups/managed_groups" for 127.0.0.1 at 2023-01-30 00:22:10 +0100
+Processing by GroupsController#managed_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/managed_groups.json.jbuilder
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (result_group2:`Group`), 
+    (result_group2)-[:`MANAGED_BY`]->(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m result_group2 | {:ID_n1=>4}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/managed_groups.json.jbuilder (Duration: 51.2ms | Allocations: 5120)
+Completed 200 OK in 66ms (Views: 52.7ms | Allocations: 8206)
+
+
+Started POST "/groups" for 127.0.0.1 at 2023-01-30 00:22:14 +0100
+Processing by GroupsController#create as */*
+  Parameters: {"name"=>"Test", "description"=>"Testeo"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m CREATE (n:`Group`) SET n = $props RETURN n | {:props=>{:uuid=>"67216750-f1e5-40a4-b89b-44cb02274917", :created_at=>1675034534, :updated_at=>1675034534, :name=>"Test", :description=>"Testeo"}}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>4, :to_node_id=>2, :setter_rel_created_at=>1675034534, :setter_rel_updated_at=>1675034534, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (group2)
+  [36mWHERE[0m (ID(group2) = $ID_group2)
+  [36mMATCH[0m (group2)-[r:`MANAGED_BY`]->(n:`User`)
+  [31mDELETE[0m r | {:ID_group2=>2}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`MANAGED_BY` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>2, :to_node_id=>4, :setter_rel_created_at=>1675034534, :setter_rel_updated_at=>1675034534, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 201 Created in 54ms (Views: 0.2ms | Allocations: 14891)
+
+
+Started GET "/groups/67216750-f1e5-40a4-b89b-44cb02274917" for 127.0.0.1 at 2023-01-30 00:22:27 +0100
+Processing by GroupsController#show as */*
+  Parameters: {"name"=>"Rumanía", "id"=>"67216750-f1e5-40a4-b89b-44cb02274917"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"67216750-f1e5-40a4-b89b-44cb02274917", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering groups/show.json.jbuilder
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>2}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group2)
+  [36mWHERE[0m (ID(group2) = $ID_group2)
+  [36mMATCH[0m (group2)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group2=>2}
+ [34mBOLT:[0m [33m23ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>2}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered groups/show.json.jbuilder (Duration: 44.7ms | Allocations: 7024)
+Completed 200 OK in 66ms (Views: 45.6ms | Allocations: 11977)
+
+
+Started DELETE "/groups/67216750-f1e5-40a4-b89b-44cb02274917" for 127.0.0.1 at 2023-01-30 00:22:33 +0100
+Processing by GroupsController#destroy as */*
+  Parameters: {"name"=>"Rumanía", "id"=>"67216750-f1e5-40a4-b89b-44cb02274917"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"67216750-f1e5-40a4-b89b-44cb02274917", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>2}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [36mOPTIONAL MATCH[0m (n)-[r]-()
+  [31mDELETE[0m 
+    n, 
+    r | {:ID_n=>2}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 202 Accepted in 33ms (Views: 0.2ms | Allocations: 8775)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-30 23:36:12 +0100
+ [34mBOLT:[0m [33m57ms[0m
+ [34mBOLT:[0m [33m113ms[0m
+ [34mBOLT:[0m [33m12ms[0m
+ [34mBOLT:[0m [33m89ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m121ms[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/betterplace/.rvm/gems/ruby-3.2.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.4ms | Allocations: 455)
+Completed 200 OK in 86ms (Views: 34.2ms | Allocations: 2201)
+
+
+Started POST "/auth/login" for 127.0.0.1 at 2023-01-31 23:27:55 +0100
+ [34mBOLT:[0m [33m23ms[0m
+ [34mBOLT:[0m [33m40ms[0m
+ [34mBOLT:[0m [33m6ms[0m
+ [34mBOLT:[0m [33m34ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m21ms[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"victor.conil.14@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m8ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"victor.conil.14@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m27ms[0m
+Completed 200 OK in 317ms (Views: 1.0ms | Allocations: 14418)
+
+
+Started GET "/users/my_data" for 127.0.0.1 at 2023-01-31 23:28:20 +0100
+Processing by UsersController#my_data as */*
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | Allocations: 441)
+
+
+Started GET "/users/my_data" for 127.0.0.1 at 2023-01-31 23:28:28 +0100
+Processing by UsersController#my_data as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m33ms[0m
+  Rendering users/my_data.json.jbuilder
+  Rendered users/my_data.json.jbuilder (Duration: 21.2ms | Allocations: 1340)
+Completed 500 Internal Server Error in 202ms (Allocations: 10890)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `managed_groups' for #<ActionView::Base:0x00000000007d78>):
+    2: 
+    3: json.(@user, :id, :name, :email, :created_at)
+    4: 
+    5: json.managed_groups(managed_groups) do |group|
+    6:   json.(group, :id, :name)
+    7:   json.member_count group.members.count
+    8: end
+  
+app/views/users/my_data.json.jbuilder:5
+Started GET "/users/my_data" for 127.0.0.1 at 2023-01-31 23:28:42 +0100
+Processing by UsersController#my_data as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m6ms[0m
+  Rendering users/my_data.json.jbuilder
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser#managed_groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`MANAGED_BY`]-(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m59ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m34ms[0m
+  Rendered users/my_data.json.jbuilder (Duration: 217.2ms | Allocations: 19664)
+Completed 200 OK in 239ms (Views: 218.6ms | Allocations: 22777)
+
+
+Started GET "/users/1/" for 127.0.0.1 at 2023-01-31 23:36:21 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"id"=>"1"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+No template found for UsersController#user_data, rendering head :no_content
+Completed 204 No Content in 35ms (Allocations: 4106)
+
+
+Started GET "/users/1/" for 127.0.0.1 at 2023-01-31 23:36:45 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"id"=>"1"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid IS NULL)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:limit_1=>1}
+ [34mBOLT:[0m [33m37ms[0m
+Completed 404 Not Found in 106ms (Allocations: 13695)
+
+
+  
+ActiveGraph::Node::Labels::RecordNotFound (Couldn't find User with 'uuid'=nil):
+  
+app/controllers/users_controller.rb:8:in `user_data'
+Started GET "/users/1asdfasdwwe" for 127.0.0.1 at 2023-01-31 23:37:53 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"id"=>"1asdfasdwwe"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid IS NULL)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 21ms (Allocations: 4905)
+
+
+  
+ActiveGraph::Node::Labels::RecordNotFound (Couldn't find User with 'uuid'=nil):
+  
+app/controllers/users_controller.rb:8:in `user_data'
+Started GET "/users/1asdfasdwwe" for 127.0.0.1 at 2023-01-31 23:38:31 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"id"=>"1asdfasdwwe"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"1asdfasdwwe", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 75ms (Allocations: 13774)
+
+
+  
+ActiveGraph::Node::Labels::RecordNotFound (Couldn't find User with 'uuid'="1asdfasdwwe"):
+  
+app/controllers/users_controller.rb:8:in `user_data'
+Started POST "/users" for 127.0.0.1 at 2023-02-01 00:13:18 +0100
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@test.com"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m (result.email = $result_email)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com"}
+ [34mBOLT:[0m [33m36ms[0m
+ [36mCYPHER[0m CREATE (n:`User`) SET n = $props RETURN n | {:props=>{:uuid=>"e38f0d1d-9b3c-4e26-bf27-2239428eb13d", :created_at=>1675206799, :updated_at=>1675206799, :name=>"Test", :email=>"test@test.com", :password_digest=>"$2a$12$D/ezeuJyF9H6EbUE52UPnelwJFuTSvqDAh0zfMvwggxgc.kVARRJ6", :logged_in_before=>false}}
+ [34mBOLT:[0m [33m635ms[0m
+Completed 201 Created in 1008ms (Views: 0.8ms | Allocations: 17639)
+
+
+Started POST "/auth/vinculate_account" for 127.0.0.1 at 2023-02-01 00:15:22 +0100
+  
+SyntaxError (/mnt/c/Users/Víctor/Proyectos/expplit/app/controllers/authentication_controller.rb:40: syntax error, unexpected ':', expecting `end' or dummy end
+      return json: {error: "Error when vinculat...
+                 ^
+):
+  
+app/controllers/authentication_controller.rb:40: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/authentication_controller.rb:40: syntax error, unexpected ':', expecting `end' or dummy end
+app/controllers/authentication_controller.rb:40: syntax error, unexpected ':', expecting `end' or dummy end
+Started POST "/auth/vinculate_account" for 127.0.0.1 at 2023-02-01 00:15:51 +0100
+Processing by AuthenticationController#vinculate_account as */*
+  Parameters: {"email"=>"test@test.com"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m27ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 96ms (Allocations: 13995)
+
+
+  
+NoMethodError (undefined method `logged_in_before' for #<[33mUser[0m [36muuid: [0m"e38f0d1d-9b3c-4e26-bf27-2239428eb13d", [36mcreated_at: [0mTue, 31 Jan 2023 23:13:19 +0000, [36memail: [0m"test@test.com", [36mname: [0m"Test", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$D/ezeuJyF9H6EbUE52UPnelwJFuTSvqDAh0zfMvwggxgc.kVARRJ6", [36mupdated_at: [0mTue, 31 Jan 2023 23:13:19 +0000>):
+  
+app/controllers/authentication_controller.rb:33:in `vinculate_account'
+Started POST "/auth/vinculate_account" for 127.0.0.1 at 2023-02-01 00:17:08 +0100
+Processing by AuthenticationController#vinculate_account as */*
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test@test.com"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 44568ms (Allocations: 143144)
+
+
+  
+NoMethodError (undefined method `logged_in_before' for #<[33mUser[0m [36muuid: [0m"e38f0d1d-9b3c-4e26-bf27-2239428eb13d", [36mcreated_at: [0mTue, 31 Jan 2023 23:13:19 +0000, [36memail: [0m"test@test.com", [36mname: [0m"Test", [36mpassword: [0mnil, [36mpassword_digest: [0m"$2a$12$D/ezeuJyF9H6EbUE52UPnelwJFuTSvqDAh0zfMvwggxgc.kVARRJ6", [36mupdated_at: [0mTue, 31 Jan 2023 23:13:19 +0000>):
+  
+app/controllers/authentication_controller.rb:35:in `vinculate_account'
+Started POST "/auth/vinculate_account" for 127.0.0.1 at 2023-02-01 00:18:05 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+Processing by AuthenticationController#vinculate_account as */*
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test@test.com"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test@test.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m 
+    (result.email = $result_email) AND 
+    NOT(ID(result) = $ID_result)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com", :ID_result=>2}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`updated_at` = $setter_n_updated_at, 
+    n.`password_digest` = $setter_n_password_digest | {:ID_n=>2, :setter_n_updated_at=>1675207098, :setter_n_password_digest=>"$2a$12$qJToNrxd2DiGAuozMjUWs.IMyPITyA/ue8jMu6YSmALmajUEJpRou"}
+ [34mBOLT:[0m [33m48ms[0m
+Completed 200 OK in 12343ms (Views: 0.2ms | Allocations: 205103)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-02-01 23:01:46 +0100
+ [34mBOLT:[0m [33m61ms[0m
+ [34mBOLT:[0m [33m126ms[0m
+ [34mBOLT:[0m [33m14ms[0m
+ [34mBOLT:[0m [33m81ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m111ms[0m
+Processing by GroupsController#member_groups as */*
+ [34mBOLT:[0m [33m11ms[0m
+ [34mBOLT:[0m [33m12ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m175ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [34mBOLT:[0m [33m10ms[0m
+ [34mBOLT:[0m [33m11ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m215ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m79ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 384.1ms | Allocations: 12773)
+Completed 200 OK in 811ms (Views: 409.7ms | Allocations: 35939)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-02-01 23:04:09 +0100
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@test.com", "group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+[31mUnpermitted parameter: :group. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fe26f254c58>, params: {"name"=>"Test", "email"=>"test@test.com", "group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "controller"=>"users", "action"=>"create"} }[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m38ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m (result.email = $result_email)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com"}
+ [34mBOLT:[0m [33m33ms[0m
+Completed 500 Internal Server Error in 353ms (Allocations: 10274)
+
+
+  
+ActiveGraph::Node::Persistence::RecordInvalidError (Email translation missing: en.neo4j.errors.models.user.attributes.email.taken):
+  
+app/controllers/users_controller.rb:30:in `create'
+Started POST "/users" for 127.0.0.1 at 2023-02-01 23:07:18 +0100
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@test.com", "group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+[31mUnpermitted parameter: :group. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fe26ffaa470>, params: {"name"=>"Test", "email"=>"test@test.com", "group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "controller"=>"users", "action"=>"create"} }[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m (result.email = $result_email)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com"}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m CREATE (n:`User`) SET n = $props RETURN n | {:props=>{:uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :created_at=>1675289239, :updated_at=>1675289239, :name=>"Test", :email=>"test@test.com", :password_digest=>"$2a$12$pDtz3WWzjecWbOP.9Nf1rujtWMWtbBQN/9rgq8V3WKK39TlSNzbx."}}
+ [34mBOLT:[0m [33m273ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>2, :to_node_id=>1, :setter_rel_created_at=>1675289239, :setter_rel_updated_at=>1675289239, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m68ms[0m
+Completed 201 Created in 610ms (Views: 0.3ms | Allocations: 12935)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-02-01 23:18:12 +0100
+Processing by GroupsController#member_groups as */*
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m4ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 63.9ms | Allocations: 12856)
+Completed 200 OK in 150ms (Views: 65.2ms | Allocations: 25983)
+
+
+Started GET "/users/from_group" for 127.0.0.1 at 2023-02-01 23:18:21 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"from_group"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"from_group", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 17ms (Views: 0.2ms | Allocations: 4769)
+
+
+Started GET "/users/from_group?group=9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:18:30 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"from_group"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"from_group", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 18ms (Views: 0.1ms | Allocations: 4923)
+
+
+Started GET "/users/from_group?9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:19:31 +0100
+Processing by UsersController#user_data as */*
+  Parameters: {"group"=>"", "9c5665b0-9d50-4255-8f8d-db80148e664c"=>nil, "id"=>"from_group"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"from_group", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 404 Not Found in 20ms (Views: 0.2ms | Allocations: 4765)
+
+
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:19:38 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m ID(result_members3) AS proof_of_life LIMIT 1 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m43ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m44ms[0m
+Completed 500 Internal Server Error in 118ms (Allocations: 9677)
+
+
+  
+NoMethodError (undefined method `members' for #<AssociationProxy Group#members [#<[33mUser[0m [36muuid: [0m"10365f29-122e-44f5-97fe-cc9ce24d65a0", [36mcreated_at: [0mWed, 01 Feb 2023 22:07:19 +0000, [36memail: [0m"test@test.com", [36mlast_login_at: [0mnil, [36mname: [0m"Test", [36mpassword_digest: [0m"$2a$12$pDtz3WWzjecWbOP.9Nf1rujtWMWtbBQN/9rgq8V3WKK39TlSNzbx.", [36mupdated_at: [0mWed, 01 Feb 2023 22:07:19 +0000>, #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mlast_login_at: [0mnil, [36mname: [0m"Víctor", [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>]>):
+  
+app/controllers/users_controller.rb:21:in `list_from_group'
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:20:27 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m ID(result_members3) AS proof_of_life LIMIT 1 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 35ms (Allocations: 9545)
+
+
+  
+NoMethodError (undefined method `members' for #<AssociationProxy Group#members [#<[33mUser[0m [36muuid: [0m"10365f29-122e-44f5-97fe-cc9ce24d65a0", [36mcreated_at: [0mWed, 01 Feb 2023 22:07:19 +0000, [36memail: [0m"test@test.com", [36mlast_login_at: [0mnil, [36mname: [0m"Test", [36mpassword_digest: [0m"$2a$12$pDtz3WWzjecWbOP.9Nf1rujtWMWtbBQN/9rgq8V3WKK39TlSNzbx.", [36mupdated_at: [0mWed, 01 Feb 2023 22:07:19 +0000>, #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mlast_login_at: [0mnil, [36mname: [0m"Víctor", [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>]>):
+  
+app/controllers/users_controller.rb:21:in `list_from_group'
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:20:36 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m ID(result_members3) AS proof_of_life LIMIT 1 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 500 Internal Server Error in 130ms (Allocations: 24361)
+
+
+  
+NameError (undefined local variable or method `group' for #<UsersController:0x0000000000c828>):
+  
+app/controllers/users_controller.rb:21:in `list_from_group'
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:20:44 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m ID(result_members3) AS proof_of_life LIMIT 1 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering users/list_from_group.json.jbuilder
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendered users/list_from_group.json.jbuilder (Duration: 11.3ms | Allocations: 3543)
+Completed 500 Internal Server Error in 123ms (Allocations: 28147)
+
+
+  
+ActionView::Template::Error (undefined method `id' for #<AssociationProxy Group#members [#<[33mUser[0m [36muuid: [0m"10365f29-122e-44f5-97fe-cc9ce24d65a0", [36mcreated_at: [0mWed, 01 Feb 2023 22:07:19 +0000, [36memail: [0m"test@test.com", [36mlast_login_at: [0mnil, [36mname: [0m"Test", [36mpassword_digest: [0m"$2a$12$pDtz3WWzjecWbOP.9Nf1rujtWMWtbBQN/9rgq8V3WKK39TlSNzbx.", [36mupdated_at: [0mWed, 01 Feb 2023 22:07:19 +0000>, #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mlast_login_at: [0mnil, [36mname: [0m"Víctor", [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>]>):
+    1: 
+    2: json.(@group, :id, :name)
+    3: 
+    4: json.member_count @members.count
+    5: 
+  
+app/views/users/list_from_group.json.jbuilder:2
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:21:19 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+  Rendering users/list_from_group.json.jbuilder
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m31ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendered users/list_from_group.json.jbuilder (Duration: 45.4ms | Allocations: 5044)
+Completed 200 OK in 155ms (Views: 46.8ms | Allocations: 27787)
+
+
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:24:02 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m 
+    (group1)<-[rel1:`BELONGS_TO`]-(n:`User`), 
+    (n)<-[:`MANAGED_BY`]-(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:ID_n1=>1, :limit_1=>1, :ID_group1=>1}
+ [34mBOLT:[0m [33m46ms[0m
+  Rendering users/list_from_group.json.jbuilder
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendered users/list_from_group.json.jbuilder (Duration: 19.1ms | Allocations: 5033)
+Completed 200 OK in 220ms (Views: 20.4ms | Allocations: 34735)
+
+
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:25:30 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m 
+    (group1)<-[rel1:`BELONGS_TO`]-(n:`User`), 
+    (n)<-[:`MANAGED_BY`]-(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:ID_n1=>1, :limit_1=>1, :ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering users/list_from_group.json.jbuilder
+  Rendered users/list_from_group.json.jbuilder (Duration: 4.3ms | Allocations: 1087)
+Completed 500 Internal Server Error in 39ms (Allocations: 9104)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<[33mUser[0m [36muuid: [0m"6fd7e856-72ce-4bb1-9be2-b70959cabad3", [36mcreated_at: [0mSun, 29 Jan 2023 16:00:29 +0000, [36memail: [0m"victor.conil.14@gmail.com", [36mlast_login_at: [0mnil, [36mname: [0m"Víctor", [36mpassword_digest: [0m"$2a$12$GYP6F.NostX29I/qNd.xqOeHamYQv0PomwZ99P.i0691BN/4r5MTa", [36mupdated_at: [0mSun, 29 Jan 2023 16:00:29 +0000>):
+    1: 
+    2: json.id @group.id
+    3: json.name @group.name
+    4: json.manager(@manager) do
+    5:   json.id @manager.id
+    6:   json.name @manager.name
+    7: end
+  
+app/views/users/list_from_group.json.jbuilder:4
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:25:49 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m 
+    (group1)<-[rel1:`BELONGS_TO`]-(n:`User`), 
+    (n)<-[:`MANAGED_BY`]-(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:ID_n1=>1, :limit_1=>1, :ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+  Rendering users/list_from_group.json.jbuilder
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendered users/list_from_group.json.jbuilder (Duration: 19.4ms | Allocations: 5045)
+Completed 200 OK in 50ms (Views: 20.7ms | Allocations: 13063)
+
+
+Started GET "/users/from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:26:18 +0100
+Processing by UsersController#list_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m 
+    (group1)<-[rel1:`BELONGS_TO`]-(n:`User`), 
+    (n)<-[:`MANAGED_BY`]-(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:ID_n1=>1, :limit_1=>1, :ID_group1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendering users/list_from_group.json.jbuilder
+ [36mGroup#members[0m 
+  [36mMATCH[0m (group1)
+  [36mWHERE[0m (ID(group1) = $ID_group1)
+  [36mMATCH[0m (group1)<-[rel1:`BELONGS_TO`]-(result_members3:`User`)
+  [36mRETURN[0m count(result_members3) AS result_members3 | {:ID_group1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup#members[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)<-[rel1:`BELONGS_TO`]-(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT:[0m [33m3ms[0m
+  Rendered users/list_from_group.json.jbuilder (Duration: 21.3ms | Allocations: 5004)
+Completed 200 OK in 56ms (Views: 22.6ms | Allocations: 13019)
+
+
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:33:50 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m 
+    (result_user2.uuid = $result_user2_uuid) AND 
+    (result_user2.group_ids = $result_user2_group_ids)
+  [36mRETURN[0m ID(result_user2) AS proof_of_life LIMIT 1 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :result_user2_group_ids=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m36ms[0m
+Completed 404 Not Found in 119ms (Views: 0.4ms | Allocations: 14518)
+
+
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-01 23:34:11 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m (result_user2.uuid = $result_user2_uuid)
+  [36mRETURN[0m result_user2 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m18ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m (result_user2.uuid = $result_user2_uuid)
+  [36mRETURN[0m result_user2
+  [36mORDER BY[0m result_user2.uuid
+  [36mLIMIT[0m $limit_1 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m23ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m (result_user2.uuid = $result_user2_uuid)
+  [36mRETURN[0m result_user2
+  [36mORDER BY[0m result_user2.uuid
+  [36mLIMIT[0m $limit_1 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>2}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m 
+    (result_user2.uuid = $result_user2_uuid) AND 
+    (result_user2.group_ids = $result_user2_group_ids)
+  [36mRETURN[0m result_user2 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :result_user2_group_ids=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m21ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m 
+    (result_user2.uuid = $result_user2_uuid) AND 
+    (result_user2.group = $result_user2_group)
+  [36mRETURN[0m result_user2 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :result_user2_group=>#<[33mGroup[0m [36muuid: [0m"9c5665b0-9d50-4255-8f8d-db80148e664c", [36mcreated_at: [0mSun, 29 Jan 2023 16:31:00 +0000, [36mdescription: [0m"Viaje a Rumania", [36mname: [0m"Rumanía", [36mupdated_at: [0mSun, 29 Jan 2023 23:20:17 +0000>}
+ [34mBOLT:[0m [33m0ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m (result_user2.uuid = $result_user2_uuid)
+  [36mRETURN[0m result_user2 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (result_group2:`Group`), 
+    (result_group2)<-[:`BELONGS_TO`]-(n1)
+  [36mWHERE[0m (ID(n1) = $ID_n1)
+  [36mRETURN[0m result_group2 | {:ID_n1=>2}
+ [34mBOLT:[0m [33m26ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_group2:`Group`)
+  [36mWHERE[0m 
+    (result_group2.uuid = $result_group2_uuid) AND 
+    (result_group2.members_id = $result_group2_members_id)
+  [36mRETURN[0m result_group2 | {:result_group2_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :result_group2_members_id=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m22ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m  
+ [34mBOLT:[0m [33m0ms[0m
+ [36mCYPHER[0m  
+ [34mBOLT:[0m [33m0ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->g:Group-[:managed_by]->n2:User where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m6ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m38ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 return n1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 and n1.uuid = 10365f29-122e-44f5-97fe-cc9ce24d65a0 return n1 
+ [34mBOLT:[0m [33m9ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 
+ [34mBOLT:[0m [33m45ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m45ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:belongs_to]->(g:Group)-[:managed_by]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 limit 1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n 
+ [34mBOLT:[0m [33m6ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n 
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 
+ [34mBOLT:[0m [33m39ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 and n1.uuid = '10365f29-122e-44f5-97fe-cc9ce24d65a0' return n1 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m27ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m Match(n1:User)-[:BELONGS_TO]->(g:Group)-[:MANAGED_BY]->(n2:User) where n1 <> n2 return n1.uuid 
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (result_user2:`User`)
+  [36mWHERE[0m 
+    (result_user2.uuid = $result_user2_uuid) AND 
+    (result_user2.group_ids = $result_user2_group_ids)
+  [36mRETURN[0m ID(result_user2) AS proof_of_life LIMIT 1 | {:result_user2_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :result_user2_group_ids=>"9c5665b0-9d50-4255-8f8d-db80148e664c"}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 404 Not Found in 2109186ms (Views: 0.2ms | Allocations: 9425888)
+
+
+Started DELETE "/users/9978798987/delete_from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-03 22:29:00 +0100
+ [34mBOLT:[0m [33m19ms[0m
+ [34mBOLT:[0m [33m41ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m36ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m18ms[0m
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"9978798987"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m42ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"9978798987", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+Completed 404 Not Found in 160ms (Allocations: 16784)
+
+
+  
+ActiveGraph::Node::Labels::RecordNotFound (Couldn't find User with 'uuid'="9978798987"):
+  
+app/controllers/users_controller.rb:45:in `delete_from_group'
+Started POST "/groups" for 127.0.0.1 at 2023-02-03 22:31:25 +0100
+Processing by GroupsController#create as */*
+  Parameters: {"name"=>"Test", "description"=>"Testeo"}
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mCYPHER[0m CREATE (n:`Group`) SET n = $props RETURN n | {:props=>{:uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :created_at=>1675459885, :updated_at=>1675459885, :name=>"Test", :description=>"Testeo"}}
+ [34mBOLT:[0m [33m248ms[0m
+ [34mBOLT:[0m [33m19ms[0m
+ [34mBOLT:[0m [33m20ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>4, :to_node_id=>5, :setter_rel_created_at=>1675459886, :setter_rel_updated_at=>1675459886, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m80ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (group5)
+  [36mWHERE[0m (ID(group5) = $ID_group5)
+  [36mMATCH[0m (group5)-[r:`MANAGED_BY`]->(n:`User`)
+  [31mDELETE[0m r | {:ID_group5=>5}
+ [34mBOLT:[0m [33m49ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`MANAGED_BY` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>5, :to_node_id=>4, :setter_rel_created_at=>1675459886, :setter_rel_updated_at=>1675459886, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m43ms[0m
+Completed 201 Created in 746ms (Views: 0.4ms | Allocations: 36329)
+
+
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group/uuid:%202cd3a228-1924-4db6-a161-27be371c4c24" for 127.0.0.1 at 2023-02-03 22:32:01 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"uuid: 2cd3a228-1924-4db6-a161-27be371c4c24", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m (result_groups3.uuid = $result_groups3_uuid)
+  [36mRETURN[0m result_groups3
+  [36mORDER BY[0m result_groups3.uuid
+  [36mLIMIT[0m $limit_1 | {:result_groups3_uuid=>"uuid: 2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1, :ID_user2=>2}
+ [34mBOLT:[0m [33m44ms[0m
+Completed 404 Not Found in 71ms (Views: 0.2ms | Allocations: 8106)
+
+
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-03 22:45:38 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m (result_groups3.uuid = $result_groups3_uuid)
+  [36mRETURN[0m result_groups3
+  [36mORDER BY[0m result_groups3.uuid
+  [36mLIMIT[0m $limit_1 | {:result_groups3_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1, :ID_user2=>2}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mRETURN[0m result_groups3 | {:ID_user2=>2}
+ [34mBOLT:[0m [33m33ms[0m
+Completed 500 Internal Server Error in 83ms (Allocations: 12031)
+
+
+  
+NoMethodError (undefined method `not' for #<QueryProxy User#groups [#<[33mGroup[0m [36muuid: [0m"9c5665b0-9d50-4255-8f8d-db80148e664c", [36mcreated_at: [0mSun, 29 Jan 2023 16:31:00 +0000, [36mdescription: [0m"Viaje a Rumania", [36mname: [0m"Rumanía", [36mupdated_at: [0mSun, 29 Jan 2023 23:20:17 +0000>]>):
+  
+app/controllers/users_controller.rb:51:in `delete_from_group'
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group/9c5665b0-9d50-4255-8f8d-db80148e664c" for 127.0.0.1 at 2023-02-03 22:46:05 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m4ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m (result_groups3.uuid = $result_groups3_uuid)
+  [36mRETURN[0m result_groups3
+  [36mORDER BY[0m result_groups3.uuid
+  [36mLIMIT[0m $limit_1 | {:result_groups3_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1, :ID_user2=>2}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m NOT(result_groups3.uuid = $result_groups3_uuid)
+  [36mRETURN[0m result_groups3 | {:result_groups3_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :ID_user2=>2}
+ [34mBOLT:[0m [33m32ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mRETURN[0m result_groups3.uuid | {:ID_user2=>2}
+ [34mBOLT:[0m [33m28ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m (result_groups3.uuid = $result_groups3_uuid)
+  [31mDELETE[0m rel1 | {:result_groups3_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :ID_user2=>2}
+ [34mBOLT:[0m [33m39ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m 
+    (result.email = $result_email) AND 
+    NOT(ID(result) = $ID_result)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com", :ID_result=>2}
+ [34mBOLT:[0m [33m33ms[0m
+Completed 200 OK in 297ms (Views: 0.2ms | Allocations: 33505)
+
+
+Started DELETE "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/delete_from_group" for 127.0.0.1 at 2023-02-03 22:46:55 +0100
+Processing by UsersController#delete_from_group as */*
+  Parameters: {"group"=>"9c5665b0-9d50-4255-8f8d-db80148e664c", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m5ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (user2)
+  [36mWHERE[0m (ID(user2) = $ID_user2)
+  [36mMATCH[0m (user2)-[rel1:`BELONGS_TO`]->(result_groups3:`Group`)
+  [36mWHERE[0m (result_groups3.uuid = $result_groups3_uuid)
+  [36mRETURN[0m result_groups3
+  [36mORDER BY[0m result_groups3.uuid
+  [36mLIMIT[0m $limit_1 | {:result_groups3_uuid=>"9c5665b0-9d50-4255-8f8d-db80148e664c", :limit_1=>1, :ID_user2=>2}
+ [34mBOLT:[0m [33m4ms[0m
+Completed 404 Not Found in 13194ms (Views: 0.2ms | Allocations: 119443)
+
+
+Started POST "/auth/login" for 127.0.0.1 at 2023-02-03 22:51:00 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"victor.conil.14@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m12ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"victor.conil.14@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m21ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m 
+    (result.email = $result_email) AND 
+    NOT(ID(result) = $ID_result)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"victor.conil.14@gmail.com", :ID_result=>4}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`updated_at` = $setter_n_updated_at, 
+    n.`last_login_at` = $setter_n_last_login_at | {:ID_n=>4, :setter_n_updated_at=>1675461061, :setter_n_last_login_at=>1675461061}
+ [34mBOLT:[0m [33m26ms[0m
+Completed 200 OK in 321ms (Views: 0.2ms | Allocations: 16074)
+
+
+Started PUT "/users/10365f29-122e-44f5-97fe-cc9ce24d65a0/add_in_group" for 127.0.0.1 at 2023-02-03 22:51:52 +0100
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+Processing by UsersController#add_user_in_group as */*
+  Parameters: {"group"=>"2cd3a228-1924-4db6-a161-27be371c4c24", "id"=>"10365f29-122e-44f5-97fe-cc9ce24d65a0"}
+ [34mBOLT:[0m [33m6ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"10365f29-122e-44f5-97fe-cc9ce24d65a0", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1}
+ [34mBOLT:[0m [33m25ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>2, :to_node_id=>5, :setter_rel_created_at=>1675461113, :setter_rel_updated_at=>1675461113, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m18ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m 
+    (result.email = $result_email) AND 
+    NOT(ID(result) = $ID_result)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test@test.com", :ID_result=>2}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 200 OK in 278ms (Views: 0.4ms | Allocations: 40841)
+
+
+Started POST "/auth/register?name=Test2&email=test2@gmail.com&password=[FILTERED]" for 127.0.0.1 at 2023-02-05 23:11:48 +0100
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m5ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mActiveGraph::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`ActiveGraph::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT:[0m [33m3ms[0m
+Processing by AuthenticationController#register as */*
+  Parameters: {"name"=>"Test2", "email"=>"test2@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"test2@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m (result.email = $result_email)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"test2@gmail.com"}
+ [34mBOLT:[0m [33m89ms[0m
+ [36mCYPHER[0m CREATE (n:`User`) SET n = $props RETURN n | {:props=>{:uuid=>"f6bd8841-1cdb-4a6b-868a-3f708a8e8912", :created_at=>1675635109, :updated_at=>1675635109, :name=>"Test2", :email=>"test2@gmail.com", :password_digest=>"$2a$12$S4i6fLQFAKOU7gJW8IO0eOJwWnU9MejxCwDF2bU0Kpab.jVAnx2WC", :last_login_at=>1675635109}}
+ [34mBOLT:[0m [33m28ms[0m
+Completed 200 OK in 423ms (Views: 0.5ms | Allocations: 18743)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-02-05 23:21:19 +0100
+Processing by GroupsController#member_groups as */*
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | Allocations: 576)
+
+
+Started POST "/auth/login" for 127.0.0.1 at 2023-02-05 23:21:27 +0100
+Processing by AuthenticationController#login as */*
+  Parameters: {"email"=>"victor.conil.14@gmail.com", "password"=>"[FILTERED]"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m4ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.email = $n_email)
+  [36mRETURN[0m n
+  [36mLIMIT[0m $limit_1 | {:n_email=>"victor.conil.14@gmail.com", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (result:`User`)
+  [36mWHERE[0m 
+    (result.email = $result_email) AND 
+    NOT(ID(result) = $ID_result)
+  [36mRETURN[0m ID(result) AS proof_of_life LIMIT 1 | {:result_email=>"victor.conil.14@gmail.com", :ID_result=>4}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = $ID_n)
+  [33mSET[0m n.`updated_at` = $setter_n_updated_at, 
+    n.`last_login_at` = $setter_n_last_login_at | {:ID_n=>4, :setter_n_updated_at=>1675635687, :setter_n_last_login_at=>1675635687}
+ [34mBOLT:[0m [33m4ms[0m
+Completed 200 OK in 285ms (Views: 0.2ms | Allocations: 16572)
+
+
+Started GET "/groups/member_groups" for 127.0.0.1 at 2023-02-05 23:21:36 +0100
+Processing by GroupsController#member_groups as */*
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"6fd7e856-72ce-4bb1-9be2-b70959cabad3", :limit_1=>1}
+ [34mBOLT:[0m [33m24ms[0m
+  Rendering groups/member_groups.json.jbuilder
+ [34mBOLT:[0m [33m10ms[0m
+ [34mBOLT:[0m [33m24ms[0m
+ [36mUser#groups[0m 
+  [36mMATCH[0m (previous:`User`)
+  [36mWHERE[0m (ID(previous) = $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`BELONGS_TO`]->(next:`Group`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>4}
+ [34mBOLT:[0m [33m58ms[0m
+ [36mGroup#manager[0m 
+  [36mMATCH[0m (previous:`Group`)
+  [36mWHERE[0m (ID(previous) IN $ID_previous)
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`MANAGED_BY`]->(next:`User`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>[5, 1]}
+ [34mBOLT:[0m [33m27ms[0m
+  Rendered groups/member_groups.json.jbuilder (Duration: 222.3ms | Allocations: 13289)
+Completed 200 OK in 396ms (Views: 250.8ms | Allocations: 24516)
+
+
+Started PUT "/groups/2cd3a228-1924-4db6-a161-27be371c4c24/join" for 127.0.0.1 at 2023-02-05 23:21:48 +0100
+Processing by GroupsController#join as */*
+  Parameters: {"id"=>"2cd3a228-1924-4db6-a161-27be371c4c24"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"f6bd8841-1cdb-4a6b-868a-3f708a8e8912", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>6, :to_node_id=>5, :setter_rel_created_at=>1675635708, :setter_rel_updated_at=>1675635708, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m4ms[0m
+Completed 500 Internal Server Error in 58ms (Allocations: 12862)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/groups_controller.rb:41:in `join'
+Started PUT "/groups/2cd3a228-1924-4db6-a161-27be371c4c24/join" for 127.0.0.1 at 2023-02-05 23:22:44 +0100
+Processing by GroupsController#join_group as */*
+  Parameters: {"id"=>"2cd3a228-1924-4db6-a161-27be371c4c24"}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"f6bd8841-1cdb-4a6b-868a-3f708a8e8912", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>6, :to_node_id=>5, :setter_rel_created_at=>1675635773, :setter_rel_updated_at=>1675635773, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m2ms[0m
+Completed 500 Internal Server Error in 8066ms (Allocations: 120708)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/groups_controller.rb:42:in `join_group'
+Started PUT "/groups/2cd3a228-1924-4db6-a161-27be371c4c24/join" for 127.0.0.1 at 2023-02-05 23:23:15 +0100
+Processing by GroupsController#join_group as */*
+  Parameters: {"id"=>"2cd3a228-1924-4db6-a161-27be371c4c24"}
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"f6bd8841-1cdb-4a6b-868a-3f708a8e8912", :limit_1=>1}
+ [34mBOLT:[0m [33m3ms[0m
+ [34mBOLT:[0m [33m2ms[0m
+ [34mBOLT:[0m [33m3ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>6, :to_node_id=>5, :setter_rel_created_at=>1675635796, :setter_rel_updated_at=>1675635796, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m3ms[0m
+Completed 200 OK in 122ms (Views: 0.2ms | Allocations: 26153)
+
+
+Started PUT "/groups/2cd3a228-1924-4db6-a161-27be371c4c24/join" for 127.0.0.1 at 2023-02-05 23:24:02 +0100
+Processing by GroupsController#join_group as */*
+  Parameters: {"id"=>"2cd3a228-1924-4db6-a161-27be371c4c24"}
+ [36mUser[0m 
+  [36mMATCH[0m (n:`User`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"f6bd8841-1cdb-4a6b-868a-3f708a8e8912", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mGroup[0m 
+  [36mMATCH[0m (n:`Group`)
+  [36mWHERE[0m (n.uuid = $n_uuid)
+  [36mRETURN[0m n
+  [36mORDER BY[0m n.uuid
+  [36mLIMIT[0m $limit_1 | {:n_uuid=>"2cd3a228-1924-4db6-a161-27be371c4c24", :limit_1=>1}
+ [34mBOLT:[0m [33m2ms[0m
+ [36mCYPHER[0m 
+  [36mMATCH[0m 
+    (from_node), 
+    (to_node)
+  [36mWHERE[0m 
+    (ID(from_node) = $from_node_id) AND 
+    (ID(to_node) = $to_node_id)
+  [32mCREATE[0m (from_node)-[rel:`BELONGS_TO` $rel_create_props]->(to_node)
+  [33mSET[0m rel.`created_at` = $setter_rel_created_at, 
+    rel.`updated_at` = $setter_rel_updated_at
+  [36mRETURN[0m rel | {:from_node_id=>6, :to_node_id=>5, :setter_rel_created_at=>1675635842, :setter_rel_updated_at=>1675635842, :rel_create_props=>{}}
+ [34mBOLT:[0m [33m4ms[0m
+Completed 200 OK in 31ms (Views: 0.3ms | Allocations: 8383)
+
+
